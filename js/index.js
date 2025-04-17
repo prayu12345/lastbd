@@ -11,7 +11,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|AT|THE|END|AGAIN| |HAPPY|BIRTHDAY|PRIYA|MAY|GOD|BLESS|YOU|❤|');
+      S.UI.simulate('|AT|THE|END|AGAIN| |HAPPY|BIRTHDAY|DAY|PRIYA|MAY|GOD|BLESS|YOU|❤|');
     }
 
     S.Drawing.loop(function () {
